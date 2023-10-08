@@ -4,7 +4,7 @@ const express = require("express");
 // By default CORS are blocked so we use a Middleware to unblock CORS
 const cors = require("cors");
 // By default EXPRESS dont have something to parse Body of a request So we use a MiddleWare
-// BodyParser
+// Body Parser
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 
