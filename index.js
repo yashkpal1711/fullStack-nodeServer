@@ -1,5 +1,5 @@
-// how to start mongodb server $ mongod --dbpath ./fullstack\ database/
-// how to start node server nodemon index.js
+// how to start mongodb server------ $ mongod --dbpath ./fullstack\ database/
+// how to start node server----- nodemon index.js
 const express = require("express");
 // By default CORS are blocked so we use a Middleware to unblock CORS
 const cors = require("cors");
@@ -51,7 +51,7 @@ server.put("/demo/updateUser/:id", async (req, res) => {
       username: req.body.username,
       password: req.body.password,
     }
-  ); 
+  );
   res.json(docs);
 });
 
